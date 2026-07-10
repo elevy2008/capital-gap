@@ -15,6 +15,9 @@ styles.css                              Shared stylesheet for all pages
 issues/
   issue-01-the-missing-middle.html      Issue 01: endometriosis, menopause,
                                          women's cardiovascular health
+  issue-02-florida-resilience-capital-gap.html
+                                         Issue 02: Florida catastrophe insurance
+                                         vs. resilience financing
 ```
 
 Static site, no build step. Every page links `styles.css` with a relative path,
