@@ -207,6 +207,35 @@ blockquote {
 .sources li { margin-bottom: 0.7rem; }
 .sources a { word-break: break-word; }
 
+/* ---- Footnotes / Chicago-style notes & bibliography ---- */
+.fn {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+  text-decoration: none;
+  color: var(--accent-deep);
+  margin-left: 1px;
+}
+.fn:hover { color: var(--accent); }
+.notes {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  padding-left: 1.4rem;
+}
+.notes li { margin-bottom: 0.8rem; padding-left: 0.3rem; }
+.notes li:target, .bibliography li:target { background: var(--paper-raised); }
+.notes a, .bibliography a { word-break: break-word; }
+.notes .back { font-size: 0.75em; margin-left: 0.3rem; text-decoration: none; }
+.bibliography {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  list-style: none;
+  padding-left: 0;
+}
+.bibliography li { margin-bottom: 0.8rem; padding-left: 1.6em; text-indent: -1.6em; }
+
 /* ---- Pull quote / callout ---- */
 .callout {
   margin: 2rem 0;
